@@ -1,8 +1,69 @@
-/* .moviesParent {
-    display: flex;
-    margin: 5rem 2rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-  } */
+/* src/pages/moviePage/MoviesPage.module.css */
+.moviesParent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.paginationArrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.pageCount {
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+/* src/components/Navbar/Navbar.module.css */
+.navbarParent {
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2em;
+  height: 3.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #ffffff; /* Solid background color */
+}
+
+.navbarLogo {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.navbarTitle {
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  background: var(--navbar-title-background);
+  background: var(--navbar-title-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbarSearch {
+  display: flex;
+  gap: 0.5em;
+  flex-basis: 20%;
+  border-bottom: 1px solid rgb(39, 39, 82);
+}
+
+.navbarSearch input {
+  font-size: 1em;
+  color: var(--navbar-input-color);
+  width: 100%;
+}

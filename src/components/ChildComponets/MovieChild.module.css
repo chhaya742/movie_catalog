@@ -1,0 +1,47 @@
+/* src/components/MovieChild/MovieChild.module.css */
+.movieChild {
+    display: block;
+    width: 200px;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .moviePoster {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movieInfo {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* src/pages/singleMoviePage/SingleMoviePage.module.css */
+  .singleMovieComponentWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .movieCard {
+    display: flex;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .poster {
+    width: 40%;
+  }
+  
+  .details {
+    padding: 20px;
+    width: 60%;
+  }
+  
+  .details h1 {
+    margin-bottom: 20px;
+  }
+  
